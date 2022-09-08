@@ -14,8 +14,8 @@ export const gsaphome = () => {
   tlHomeHeader
     .from($('.dot'), {
       opacity: 0,
-      duration: 2,
-      yoyo: true,
+      duration: 0.5,
+      yoyo: 1,
       repeat: -1,
       ease: 'Bounce.easeIn',
       stagger: {
