@@ -8,7 +8,7 @@ linkrel.rel = 'stylesheet';
 
 linkrel.type = 'text/css';
 
-linkrel.ref = 'http://localhost:3000/swiperhome.css';
+linkrel.ref = 'http://localhost:3000/home.css';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
