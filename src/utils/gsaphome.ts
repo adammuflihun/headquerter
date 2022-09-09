@@ -50,4 +50,22 @@ export const gsaphome = () => {
     { duration: 2, yoyo: 1, y: 50, repeat: -1, ease: 'Power1.easeInOut' },
     1
   );
+
+  const tlFloatBox = gsap.timeline();
+
+  tlFloatBox.to(
+    '.float-box',
+    {
+      duration: 2,
+      yoyo: 1,
+      y: 40,
+      repeat: -1,
+      ease: 'Power2.easeInOut',
+      stagger: {
+        from: 'random',
+        each: 0.2,
+      },
+    },
+    1
+  );
 };

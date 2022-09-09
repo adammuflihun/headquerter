@@ -104,3 +104,37 @@
   cursor: pointer;
   background-size: 32px;
 }
+
+/* Disabled Arrow Button */
+.splide button:disabled {
+  opacity: 0.4;
+}
+/* Dark Sections */
+.is--dark .swiper-arrow,
+.is--dark .swiper-scrollbar {
+  filter: invert(100%);
+}
+.is--dark .swiper-pagination-bullet {
+  background-color: #dfdad5 !important;
+}
+
+.swiper {
+  overflow: visible;
+}
+
+.swiper-horizontal > .swiper-scrollbar {
+  position: relative;
+  width: 100%;
+  height: 1em;
+  left: 0px;
+  bottom: 0px;
+}
+.swiper-scrollbar-drag {
+  cursor: pointer;
+  border-radius: 100vw;
+}
+
+body .swiper-pagination {
+  position: relative;
+  bottom: 0px !important;
+}
