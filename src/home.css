@@ -78,3 +78,7 @@
   opacity: 1;
   transition: 0.2s;
 }
+
+.block-mini-apps:hover .button-mini-apps {
+  background-color: #f0ff48;
+}
