@@ -44,4 +44,10 @@ export const gsaphome = () => {
       //options: play, pause, resume, reset, restart, complete, reverse,none
     },
   });
+
+  gsap.to(
+    '.icon-box-smoother',
+    { duration: 2, yoyo: 1, y: 50, repeat: -1, ease: 'Power1.easeInOut' },
+    1
+  );
 };
