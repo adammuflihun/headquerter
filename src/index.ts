@@ -1,14 +1,20 @@
 import { gsaphome } from '$utils/gsaphome';
 
 // Create new link Element
-var linkrel = document.createElement('link');
+var head = document.getElementsByTagName('HEAD')[0];
+
+// Create new link Element
+var link = document.createElement('link');
 
 // set the attributes for link element
-linkrel.rel = 'stylesheet';
+link.rel = 'stylesheet';
 
-linkrel.type = 'text/css';
+link.type = 'text/css';
 
-linkrel.href = 'http://localhost:3000/home.css';
+link.href = 'http://localhost:3000/home.css';
+
+// Append link element to HTML head
+head.appendChild(link);
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
