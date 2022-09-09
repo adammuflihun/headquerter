@@ -34,8 +34,11 @@
 .w--redirected-checked.wrapper-checked.icon-checked {
   display: block;
 }
+.number-tab-content {
+  background-color: #667085;
+}
 .tab-link:nth-child(1).w-tab-link.w--current .flex-link-tab .number-tab-content {
-  background-color: #081626;
+  background-color: red;
 }
 .tab-link:nth-child(2).w-tab-link.w--current .flex-link-tab .number-tab-content {
   background-color: #081626;
@@ -74,8 +77,4 @@
   transform: translate(1em, 0);
   opacity: 1;
   transition: 0.2s;
-}
-
-.number-tab-content {
-  background-color: #667085 !important;
 }
