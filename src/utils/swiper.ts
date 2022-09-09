@@ -30,7 +30,7 @@ export const swiperHome = () => {
       },
       // when window width is >= 992px
       992: {
-        slidesPerView: 2.8,
+        slidesPerView: 2.5,
         centeredSlides: true,
         slidesPerGroup: 1,
       },
