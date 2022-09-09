@@ -36,7 +36,7 @@ export const gsaphome = () => {
     ease: 'linear',
     scrollTrigger: {
       trigger: '.wrap-boxes',
-      markers: true,
+      // markers: true,
       scrub: true,
       start: '-100% 50%', //when top of herman passes 75% viewport height
       end: 'bottom 15%', //when bottom of herman passes 25% viewport height
