@@ -1,6 +1,9 @@
-import { greetUser } from '$utils/greet';
 import { gsaphome } from '$utils/gsaphome';
 
 window.Webflow ||= [];
-window.Webflow.push(() => {});
+window.Webflow.push(() => {
+  $('.tab-link').hover(function () {
+    $(this).click();
+  });
+});
 gsaphome();
