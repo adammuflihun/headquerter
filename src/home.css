@@ -38,7 +38,7 @@
   background-color: #667085;
 }
 .tab-link:nth-child(1).w-tab-link.w--current .flex-link-tab .number-tab-content {
-  background-color: red;
+  background-color: #081626;
 }
 .tab-link:nth-child(2).w-tab-link.w--current .flex-link-tab .number-tab-content {
   background-color: #081626;
