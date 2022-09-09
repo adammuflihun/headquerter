@@ -1,5 +1,5 @@
 .button-navbar.button-yellow:hover .icon-arrow-button {
-  transform: translate(50px, 100px);
+  transform: translate(50px, 0px);
 }
 
 .button .icon-arrow-button {
