@@ -1,4 +1,5 @@
 import { gsaphome } from '$utils/gsaphome';
+import { swiperHome } from '$utils/swiper';
 
 // Create new link Element
 var head = document.getElementsByTagName('HEAD')[0];
@@ -22,3 +23,4 @@ window.Webflow.push(() => {
 });
 
 gsaphome();
+swiperHome();

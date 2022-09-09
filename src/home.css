@@ -83,3 +83,24 @@
   background-color: #f0ff48;
   color: #081626;
 }
+
+.swiper-arrow.button-prev {
+  height: 64px;
+  width: 64px;
+  background-color: #f0ff48;
+  position: absolute;
+  left: auto;
+  top: 40%;
+  background-size: 32px;
+  cursor: pointer;
+}
+.swiper-arrow.button-next {
+  height: 64px;
+  width: 64px;
+  background-color: #f0ff48;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  cursor: pointer;
+  background-size: 32px;
+}
