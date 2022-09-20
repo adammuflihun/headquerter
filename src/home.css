@@ -79,10 +79,10 @@
   transition: 0.2s;
 }
 
-.block-mini-apps:hover .button-mini-apps {
-  background-color: #f0ff48;
-  color: #081626;
-}
+/* .block-mini-apps:hover .button-mini-apps {
+  /* background-color: #f0ff48; */
+  /* color: #081626; */
+} */
 
 .swiper-arrow.button-prev {
   height: 64px;
