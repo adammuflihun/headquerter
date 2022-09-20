@@ -30,20 +30,20 @@ export const gsaphome = () => {
     .from('.graphic-box', { y: 150, opacity: 0 }, 0.5)
     .to('.graphic-box', { duration: 2, yoyo: 1, y: 50, repeat: -1, ease: 'Power1.easeInOut' }, 1);
 
-  gsap.to('.wrap-boxes', {
-    duration: 2,
-    x: '-30vw',
-    ease: 'linear',
-    scrollTrigger: {
-      trigger: '.wrap-boxes',
-      // markers: true,
-      scrub: true,
-      start: '-100% 50%', //when top of herman passes 75% viewport height
-      end: 'bottom 15%', //when bottom of herman passes 25% viewport height
-      toggleActions: 'play none none restart',
-      //options: play, pause, resume, reset, restart, complete, reverse,none
-    },
-  });
+  // gsap.to('.wrap-boxes', {
+  //   duration: 2,
+  //   x: '-30vw',
+  //   ease: 'linear',
+  //   scrollTrigger: {
+  //     trigger: '.wrap-boxes',
+  //     // markers: true,
+  //     scrub: true,
+  //     start: '-100% 50%', //when top of herman passes 75% viewport height
+  //     end: 'bottom 15%', //when bottom of herman passes 25% viewport height
+  //     toggleActions: 'play none none restart',
+  //     //options: play, pause, resume, reset, restart, complete, reverse,none
+  //   },
+  // });
 
   gsap.to(
     '.icon-box-smoother',
